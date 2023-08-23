@@ -1,0 +1,29 @@
+@import 'colors.css';
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 450px;
+    background-color: var(--color-base);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .square:hover {
+    background-color:var(--color-hover);
+  }
+  

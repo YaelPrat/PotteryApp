@@ -9,6 +9,7 @@ import RecordList from "./components/recordList";
 import Edit from "./components/edit";
 import Create from "./components/create";
 import Gallery from "./components/gallery";
+import HomePage from "./components/homePage";
  
 const App = () => {
  return (
@@ -19,6 +20,7 @@ const App = () => {
        <Route path="/edit/:id" element={<Edit />} />
        <Route path="/create" element={<Create />} />
        <Route path="/gallery" element={<Gallery />} />
+       <Route path="/homePage" element={<HomePage />} />
 
      </Routes>
    </div>
